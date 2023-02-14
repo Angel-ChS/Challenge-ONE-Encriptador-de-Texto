@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptar/Desencriptar</title> 
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container-header">
+            <div class="titulos">
+                <h2><img src="img/Logo.png" alt="Logotipo de alura"></h2>
+                <h1>Reglas del encriptador/desencriptador Alura</h1>
+
+            </div>
+            <nav class="barraNavegacion">
+                <a href="index.html" class="botonNavegacion">Inicio</a>     
+                <a href="reglas.html" class="botonNavegacion">Reglas</a>
+    
+            </nav>
+        </div>
+    </header>
+    
+    <main> 
+        <form id="form">
+            <textarea id="entrada" rows="" cols="" placeholder="Inserte aquí su texto"  onkeyup="javascript:this.value=this.value.toLowerCase();"></textarea> 
+            <a class="recarga" href="index.html">&#128472;</a>
+            <div class="rectangulo">
+                <textarea id="salida" rows="50" cols="50" placeholder="Inserte aquí su texto" disabled></textarea> 
+                <div id="ocultar">
+                    <img class="muneco" src="img/Muñeco.png" alt="Muñeco con lupa en mano">
+
+                    <div class="textos">
+                        <p class="texto1">Ningún mensaje fue encontrado</p>
+                        <p class="texto2">Ingresa el texto que desees encriptar o desencriptar </p>
+                        
+                    </div>
+                </div>
+                <div > 
+                    <input id="botonCopiarOcultar" class="botonCopiar" type="button" value="Copiar" onclick="copiar()">
+
+                </div>
+            </div>
+
+        </form>
+        <div>
+            <p>⚠ solo letras minúsculas y sin acentos </p>
+            
+            <div class="cajaBotones">
+                <input class="botonDerecho" type="button" value="Encriptar" onclick="mostrarEncriptado()">
+                <input class="botonIzquierdo" type="button" value="Desencriptar" onclick="mostrarDesencriptado()"> 
+            </div>
+        </div>
+        
+    </main>
+    <footer>
+        <div>
+            <a href="https://www.linkedin.com/in/angel-chan-dwf/" target="_blank"><img class="logos" src="img/logoLinked.png" alt="Logo de Linkedin"> </a>
+            <a href="https://github.com/Angel-ChS" target="_blank"><img class="logos" src="img/github.png" alt="Logo de github"> </a>
+        </div>
+        <div class="parrafos">
+            <p>Angel Oldair Chan Santoyo</p>
+        </div>
+    </footer>
+    
+</body>
+</html>

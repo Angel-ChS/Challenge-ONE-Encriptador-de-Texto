@@ -1,0 +1,216 @@
+body{
+    font-family: 'Inter', sans-serif;
+    background: #a7f654;
+}
+
+/*------------------------------------------------header---------------------------------------------------------**/
+header{
+    background: #a7f654;
+}
+.titulos{
+    background: #a7f654;
+    display: flex;
+    justify-content: space-evenly; 
+    margin: 20px 0;
+}
+.titulos h1{
+    color: #164054;
+    font-weight: bolder;
+    font-size: 2em;
+    
+}
+.barraNavegacion{
+    display: flex;
+    justify-content: center;
+    background: #a7f654; 
+    height: 200px;
+    margin: 20px 0; 
+}
+
+.botonNavegacion{ 
+    background: #0A3871;
+    color: white;
+
+    font-weight: bolder;
+    font-style: inter;
+    font-size: 22px;
+    text-decoration: none;  
+    
+    margin: 10px;
+    padding: 35px 10px 0px 10px;
+    display: flex;
+    justify-content: center ;
+    width: 300px; /*Ancho*/
+    height: 67px; /*largo */
+    border-radius: 24px;
+    border-color: #0A3871;
+    
+}
+.botonNavegacion:hover{
+    box-shadow: 10px 10px 15px 5px black;
+    opacity: 0.9;
+}
+
+/*------------------------------------------MAIN----------------------------------------------------------------*/
+main{
+    width: 100%;
+    margin: 20px 0;
+    padding: 20px 0;
+    background: #70d20b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+.listaReglas{
+    color: #0A3871;
+    font-weight: bold;
+    font-size: 22px;
+
+}
+form{
+    display: flex;
+    align-items: flex-start;
+}
+#entrada{
+    width: 503px;
+    height: 200px;
+    resize: none;/*Este es para evitar que el textArea se pueda redimensionar*/
+    flex-grow: 1; 
+    color: #0A3871;
+    font-weight: bold;
+    margin: 30px 100px;
+    font-size: 18px;
+    border: none;  
+    background: #70d20b;
+    
+}
+.recarga{
+    font-weight: bold;
+    font-size: 2em;
+    text-decoration: none;  
+    margin: 30px 0;
+}
+.rectangulo{
+    display: flex; 
+    align-items: center;
+    flex-direction: column;
+    width: 326px;
+    height: 944px;
+    margin: 30px 50px;
+    background: #a7f654;
+    border: none;
+    border-radius: 32px; 
+    
+}
+#salida{
+    width: 262px;
+    height: 300px;
+    resize: none;/*Este es para evitar que el textArea se pueda redimensionar*/
+    margin: 10px 0 10px 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #0A3871; 
+    background: #a7f654;
+    border: none;
+}
+#ocultar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.muneco{
+    width: 320px;
+    margin-top: 20px;
+}
+.textos{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+.texto1{
+    display: flex;
+    position: initial;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #0A3871;
+}
+.texto2{
+    display: flex;
+    position: initial;
+    font-size: 16px; 
+    font-weight: bold;
+    color: #0A3871; 
+    text-align: center;
+}
+.botonCopiar{
+    display: none;
+    width: 272px; 
+    height: 67px;
+    font-size: 16px;
+    font-style: inter; 
+    color: #0A3871; 
+    background: white;
+    border-radius: 24px;
+    border-color: #0A3871;
+    margin-bottom: 10px;
+}
+
+form p{
+    color: #0A3871;
+    font-size: 12px;
+}
+
+.botonDerecho{
+    width: 272px;
+    height: 67px; 
+    font-size: 16px;
+    font-style: inter;
+    color: white;
+    background: #0A3871;  
+    border-radius: 24px;
+    border-color: #0A3871;
+    margin-bottom: 10px;
+} 
+.botonDerecho:hover{
+    box-shadow: 10px 10px 15px 5px black;
+    opacity: 0.9;
+}
+.botonIzquierdo{
+    width: 272px;
+    height: 67px; 
+    font-size: 16px;
+    font-style: inter;
+    color: #0A3871;
+    background: white;
+    border-radius: 24px;
+    border-color: #0A3871;
+    margin-bottom: 10px;
+}
+.botonIzquierdo:hover{
+    box-shadow: 10px 10px 15px 5px black;
+    opacity: 0.9;
+}
+
+/*-----------------------------------------------------footer-----------------------------------------------*/
+footer{
+    background: #a7f654; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.parrafos{
+    font-size: 12px;
+    font-weight: bold;
+    background: #a7f654;
+    color: #0A3871;
+    display: flex;
+    margin-bottom: 20px;
+    
+}
+.logos{
+    width: 30px;
+    height: 30px;
+    margin: 50px 0;
+
+}
